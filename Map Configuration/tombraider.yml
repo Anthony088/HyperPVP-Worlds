@@ -1,0 +1,91 @@
+Settings:
+  World: tombraider
+  Name: Tomb Raider
+  Mode: RTC
+  X: 56.0
+  Y: 86.0
+  Z: -60.0
+  Minutes: 20
+  MaxPerTeam: '10'
+  Features:
+  - ''
+  Authors:
+  - Jooopv
+  Teams:
+  - DARK_RED
+  - BLUE
+  Spawns:
+  - BLUE,100,64,-32
+  - DARK_RED,11,64,-22
+  Items:
+  - IRON_SWORD,1
+  - BOW,1|ARROW_INFINITE,1
+  - IRON_PICKAXE,1
+  - LOG,64
+  - GLASS,64
+  - COOKED_BEEF,32
+  - GOLDEN_APPLE,3
+  - ARROW,1
+  Regions:
+    '1':
+      TeamWhitelist: 
+      - BLUE
+      Blocks: ''
+      Alert: You are not allowed to enter blue teams spawn.
+      Type: TEAM
+      MaxX: 105
+      MaxY: 68
+      MaxZ: -30
+      MinX: 98
+      MinY: 62
+      MinZ: -37
+    '2':
+      TeamWhitelist: 
+      - DARK_RED
+      Blocks: ''
+      Alert: You are not allowed to enter red teams spawn.
+      Type: TEAM
+      MaxX: 14
+      MaxY: 68
+      MaxZ: -19
+      MinX: 7
+      MinY: 62
+      MinZ: -26
+    '3':
+      TeamWhitelist: ''
+      Blocks: ''
+      Alert: ''
+      Type: RTC
+      MaxX: 58
+      MaxY: 71
+      MaxZ: -25
+      MinX: 53
+      MinY: 66
+      MinZ: -30
+    '4':
+      TeamWhitelist: ''
+      Blocks: ''
+      Alert: ''
+      Type: MAP
+      MaxX: 150
+      MaxY: 117
+      MaxZ: 18
+      MinX: -1
+      MinY: -10000
+      MinZ: -84
+    '5':
+      TeamWhitelist: ''
+      Blocks:
+      - SMOOTH_STAIRS
+      - STONE
+      - SMOOTH_BRICK
+      - STEP
+      - DOUBLE_STEP
+      Alert: ''
+      Type: BLOCK_PLACE_DESTORY
+      MaxX: 150
+      MaxY: 117
+      MaxZ: 18
+      MinX: -1
+      MinY: -10000
+      MinZ: -84

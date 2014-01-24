@@ -1,0 +1,53 @@
+Settings:
+  World: frostbitten
+  Name: Frostbitten
+  Mode: TDM
+  X: 132.0
+  Y: 51.0
+  Z: -179.0
+  Minutes: 10
+  MaxPerTeam: '10'
+  Features:
+  - noblockbreak
+  - deadlysnowball
+  - jumppreassureplate
+  Authors:
+  - Findbro
+  - classily
+  Teams:
+  - DARK_AQUA
+  - YELLOW
+  Spawns:
+  - YELLOW,182,21,-222
+  - DARK_AQUA,83,21,-223
+  Items:
+  - IRON_SWORD,1
+  - GOLDEN_APPLE,5
+  - COOKED_BEEF,5
+  - SNOW_BALL,16
+  - SNOW_BALL,16
+  Regions:
+    '1':
+      TeamWhitelist:
+      - YELLOW
+      Blocks: ''
+      Alert: You cannot enter yellow teams spawn.
+      Type: TEAM
+      MaxX: 190
+      MaxY: 29
+      MaxZ: -216
+      MinX: 172
+      MinY: 19
+      MinZ: -233
+    '2':
+      TeamWhitelist:
+      - DARK_AQUA
+      Blocks: ''
+      Alert: You cannot enter aqua's team spawn.
+      Type: TEAM
+      MaxX: 94
+      MaxY: 28
+      MaxZ: -215
+      MinX: 76
+      MinY: 19
+      MinZ: -232
